@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
 # 云端部署：直接读取已上传的小样本文件
-DATA_FILE = "data/prices.csv"
+DATA_FILE = "prices.csv"
 
 # ==================== 缓存函数 ====================
 @st.cache_data
