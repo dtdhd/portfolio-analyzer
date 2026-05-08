@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
 # ⚠️ 替换为你的原始数据文件完整路径
-DATA_FILE = r"C:\Users\lenovo\Desktop\二层桌面\因子库\沪深收盘价2014.2.20-2026.2.11"
+DATA_FILE = "data/prices.csv"
 
 # 一些常见的 A 股股票/ETF 代码，方便下拉快速选择（只显示你本地数据中存在者）
 COMMON_TICKERS = [
